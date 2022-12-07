@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wgh@300;400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;400;500&display=swap');
+
+body{
+    background:#400c44;
+    box-sizing: border-box;
+    font-family: "Noto Sans",sans-serif;
+    color: white;
+}
+.landingpage{
+    text-align: center;
+    margin-top: 3rem;
+}
+.landing_buttons{
+    margin-top: 1.4rem;
+}
+.landing_buttons .button_1, .button_3{
+    background-color:#400c44;
+    border: 1px solid white;
+    border-radius: 8px;
+    color: white;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 5px;
+    cursor: pointer;
+}
+
+.landing_buttons .button_2{
+    border-radius: 8px;
+    background-color: white;
+    border: 1px solid white;
+    color: #400c44;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 20px;
+    cursor: pointer;
+    padding: 12px 38px;
+}
+.landingpage_form{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 5rem;
+    width: 450px;
+    border: 8px solid #603c5c;    
+    /* box-shadow: 1px 1px 1px white; */
+    padding: 50px;
+    left: 33%;
+    position: fixed;
+    color: black;
+    /* margin: 20px; */
+}
+.landingpage_form h1{
+    font-weight: 400;
+}
+.landingpage_form .button_3{
+    margin-top: 2rem;
+}
+.landingpage_form input::placeholder{
+
+    font-style: italic;
+}
+.landingpage_form input{
+    background-color: white;
+    border: 1px solid #400c44;
+    margin: 0.7rem 0.5rem;
+    padding: 0.5rem 0.5rem;
+    border-radius: 5px;
+}
+.landingpage_form .input_password{
+    margin-left: -1rem;
+}

@@ -1,0 +1,47 @@
+.private_chat{
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+
+    /* text-align: center; */
+    margin-top: 3rem;
+    width: 60rem;
+    padding: 50px;
+    /* right: 220%; */
+    /* position: fixed; */
+    margin-left: 19rem;
+    border: 8px solid #603c5c; 
+    border-radius: 10px;   
+}
+.private_chat ul{
+    list-style: none;
+    font-size: 16px;
+    font-weight: 500;
+    /* background-color:aqua; */
+}
+.private_chat .texting {
+    width: 15rem;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding: 10px;
+}
+.private_chat input{
+    padding: 4px;
+    width: 45rem;
+    border-radius: 6px;
+}
+.private_chat .button_3{
+    white-space: nowrap ;
+    position: absolute;
+    padding: 6px 1.6rem;
+    margin-top: -1px;
+}
+.private_chat .button_3:hover{
+    background-color: #603c5c;
+
+}
+.username h2{
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: 300;
+}

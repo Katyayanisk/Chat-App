@@ -1,0 +1,66 @@
+.chat{
+    background-color: white;
+}
+.chat .username{
+    color: #400c44;
+    color: white;
+    font-size:2rem;
+    z-index: 9;
+    margin-left: -16rem;
+    margin-top: 1rem;
+    font-weight: 200;
+}
+.search_user{
+    margin-top: 0.5rem;
+    margin-left: 15rem;
+    /* display: flex; */
+    white-space: nowrap;
+    position: absolute;
+
+}
+.search_user .button_3{
+    padding: 10px 20px;
+}
+.search_user input{
+    width: 50rem;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #400c44;
+    /* width: 50rem; */
+    margin-top: 2rem;
+}
+.dm{
+    margin-top: 10rem;
+    margin-left: 30rem;
+    position: absolute;
+}
+.dm>h1{
+ color: #400c44;
+ margin-left: 15rem;
+}
+.dm ul{
+    list-style: none;
+}
+.dm .users li{
+    margin-bottom: 1rem;
+}
+.dm .users li button{
+    padding:8px;
+    text-align: center;
+    color:#400c44;
+    background-color:white;
+    border-radius: 8px;
+    border: 1px solid #7b437e;
+    /* border: 1px solid rgba(255, 255, 255, 0.63); */
+    width: 30rem;
+    margin-left: 2rem;
+}
+.dm .users li button:hover{
+    background-color: #7b437e;
+    transition: 0.3s;
+}
+.fa-xmark{
+    color: #400c44;
+    margin-left: 2rem;
+    cursor: pointer;
+}
